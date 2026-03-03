@@ -64,10 +64,15 @@ Countries GeoJSON File
 
 covid-vaccination-geo-dashboard/
 │
+
 ├── main.py
+
 │
+
 └── data/
+    
     ├── covid-vaccination.csv
+    
     └── countries.geojson
     
 ## 05 Installation & Setup
