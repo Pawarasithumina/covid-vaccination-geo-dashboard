@@ -78,18 +78,18 @@ covid-vaccination-geo-dashboard/
 
     
 ## 05 Installation & Setup
-1️* Clone Repository
+ * Clone Repository
 
 git clone https://github.com/Pawarasithumina/covid-vaccination-geo-dashboard.git
 cd covid-vaccination-geo-dashboard
 
 
-2️* Create Conda Environment
+ * Create Conda Environment
 conda create -n visualization python=3.11
 conda activate visualization
 
 
-3️* Install Dependencies
+ * Install Dependencies
 pip install pandas geopandas bokeh
 
 
