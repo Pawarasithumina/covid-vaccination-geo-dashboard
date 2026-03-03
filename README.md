@@ -6,7 +6,7 @@ An interactive geospatial dashboard visualizing global COVID-19 vaccination data
 
 This project integrates vaccination statistics with geographic country boundaries to create a dynamic choropleth world map.
 
-Features
+## 01 Features
 
 01 Interactive world choropleth map
 
