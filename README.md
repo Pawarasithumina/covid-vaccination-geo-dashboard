@@ -63,6 +63,7 @@ Countries GeoJSON File
 ## 04 Project Structure
 
 covid-vaccination-geo-dashboard/
+
 │
 
 ├── main.py
@@ -70,10 +71,11 @@ covid-vaccination-geo-dashboard/
 │
 
 └── data/
-    
     ├── covid-vaccination.csv
-    
     └── countries.geojson
+
+
+
     
 ## 05 Installation & Setup
 1️* Clone Repository
