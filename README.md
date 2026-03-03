@@ -26,41 +26,42 @@ COVID-19 Vaccination Data (CSV)
 
 * Contains:
 
-Country
+* Country
 
-ISO Code
+* ISO Code
 
-Date
+* Date
 
-Total Vaccinations
+* Total Vaccinations
 
-People Vaccinated
+* People Vaccinated
 
-People Fully Vaccinated
+* People Fully Vaccinated
 
-New Deaths
+* New Deaths
 
-Population
+* Population
 
-Vaccination Ratio (%)
+* Vaccination Ratio (%)
 
-2️⃣ Countries GeoJSON File
+Countries GeoJSON File
 
-Used to render country boundaries and enable geo mapping.
+* Used to render country boundaries and enable geo mapping.
 
-🛠️ Technologies Used
+## 03 Technologies Used
 
-Python 3.11
+* Python 3.11
 
-Pandas
+* Pandas
 
-GeoPandas
+* GeoPandas
 
-Bokeh
+* Bokeh
 
-GeoJSON
+* GeoJSON
 
-📁 Project Structure
+## 04 Project Structure
+
 covid-vaccination-geo-dashboard/
 │
 ├── main.py
@@ -69,67 +70,67 @@ covid-vaccination-geo-dashboard/
     ├── covid-vaccination.csv
     └── countries.geojson
     
-⚙️ Installation & Setup
-1️⃣ Clone Repository
+## 05 Installation & Setup
+1️* Clone Repository
+
 git clone https://github.com/Pawarasithumina/covid-vaccination-geo-dashboard.git
 cd covid-vaccination-geo-dashboard
 
-2️⃣ Create Conda Environment
+
+2️* Create Conda Environment
 conda create -n visualization python=3.11
 conda activate visualization
 
-3️⃣ Install Dependencies
+
+3️* Install Dependencies
 pip install pandas geopandas bokeh
 
 
-▶️ Run the Application
 
-From the parent directory:
+## 06 Run the Application
+
+## From the parent directory:
 
 bokeh serve --show covid-vaccination-geo-dashboard
 
-Open in browser:
+
+## Open in browser:
 
 http://localhost:5006/covid-vaccination-geo-dashboard
-📌 How It Works
 
-Loads vaccination CSV data
 
-Cleans and standardizes ISO country codes
 
-Merges vaccination data with GeoJSON
+## 07 How It Works
 
-Uses LinearColorMapper to map vaccination rates to colors
+* Loads vaccination CSV data
 
-Updates map dynamically based on user input (slider & dropdown)
+* Cleans and standardizes ISO country codes
 
-🎯 Learning Outcomes
+* Merges vaccination data with GeoJSON
 
-Geo data integration
+* Uses LinearColorMapper to map vaccination rates to colors
 
-Choropleth visualization design
+* Updates map dynamically based on user input (slider & dropdown)
 
-Bokeh Server deployment
+## 08 Learning Outcomes
 
-Interactive dashboard development
+* Geo data integration
 
-Debugging JSON serialization issues
+* Choropleth visualization design
 
-🔮 Future Improvements
+* Bokeh Server deployment
 
-Metric selector (Vaccination vs Deaths)
+* Interactive dashboard development
 
-Country click → Time-series chart
+* Debugging JSON serialization issues
 
-Cloud deployment (Render / Heroku)
+## 09 Future Improvements
 
-UI enhancements
+* Metric selector (Vaccination vs Deaths)
 
-👤 Author
+* Country click → Time-series chart
 
-Sanju
-Undergraduate – Data Science
+* Cloud deployment (Render / Heroku)
 
-📜 License
+* UI enhancements
 
-This project is created for academic purposes.
