@@ -8,22 +8,23 @@ This project integrates vaccination statistics with geographic country boundarie
 
 ## 01 Features
 
-01 Interactive world choropleth map
+01. Interactive world choropleth map
 
-02 Date slider for temporal analysis
+02. Date slider for temporal analysis
 
-03 Country filter dropdown
+03. Country filter dropdown
 
-04 Hover tooltips with detailed statistics
+04. Hover tooltips with detailed statistics
 
-05 Color-coded vaccination rates
+05. Color-coded vaccination rates
 
-06 Real-time updates using Bokeh Server
+06. Real-time updates using Bokeh Server
 
-Dataset
-1️⃣ COVID-19 Vaccination Data (CSV)
+## 02 Dataset
 
-Contains:
+COVID-19 Vaccination Data (CSV)
+
+* Contains:
 
 Country
 
