@@ -62,49 +62,49 @@ Countries GeoJSON File
 
 ## 04 Project Structure
 
+```
 covid-vaccination-geo-dashboard/
-
 │
-
 ├── main.py
-
 │
-
 └── data/
     ├── covid-vaccination.csv
     └── countries.geojson
+```
 
 
 
     
 ## 05 Installation & Setup
  * Clone Repository
-
+```
 git clone https://github.com/Pawarasithumina/covid-vaccination-geo-dashboard.git
 cd covid-vaccination-geo-dashboard
-
+```
 
  * Create Conda Environment
+```
 conda create -n visualization python=3.11
 conda activate visualization
-
+```
 
  * Install Dependencies
+```
 pip install pandas geopandas bokeh
-
+```
 
 
 ## 06 Run the Application
 
 ## From the parent directory:
-
+```
 bokeh serve --show covid-vaccination-geo-dashboard
-
+```
 
 ## Open in browser:
-
+```
 http://localhost:5006/covid-vaccination-geo-dashboard
-
+```
 
 
 ## 07 How It Works
